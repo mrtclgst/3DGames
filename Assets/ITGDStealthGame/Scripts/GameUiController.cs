@@ -6,11 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class GameUiController : MonoBehaviour
 {
-    [SerializeField] GameObject gameLoseUi, gameWonUi;
+    [SerializeField] GameObject gameLoseUi, gameWonUi;//uileri gameobje olarak attýk
     bool gameIsOver;
 
     private void Start()
     {
+        //
         Guard.OnGuardHasSpottedPlayer += ShowGameLoseUi;
         FindObjectOfType<Player>().OnReachedFinishPoint += ShowGameWinUi;
     }
