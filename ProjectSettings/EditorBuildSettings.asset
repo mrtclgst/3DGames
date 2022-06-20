@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/ITGDStealthGame/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/02EndlessRunner/Scenes/EndlessRunnerMenu.unity
+    guid: 0d5ab138b6b7736438dcfc44233b444d
+  - enabled: 1
+    path: Assets/02EndlessRunner/Scenes/EndlessRunnerScene.unity
+    guid: 002a75d7b04603141afdaf7013592807
   m_configObjects: {}
